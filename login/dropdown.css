@@ -1,0 +1,78 @@
+body{
+	background: darkgrey;
+}
+.container{
+	position: relative;
+}
+.taskbar{
+	position: relative;
+	top: 0;
+	background: white;
+	width: auto;
+	height: 60px;
+}
+ul li{
+	list-style: none;
+	background: #3c3e94;
+	width: 100px;
+	border: 1px solid white;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	color: white;
+	font-size: 16px;
+}
+ul li:hover{
+	background: #388222;
+	color: yellow;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul ul{
+	display: none;
+}
+ul li:hover > ul{
+	display: block;
+}
+
+ul ul{
+	position: relative;
+}
+ul ul ul{
+	
+	position: relative;
+	top: -31.5px;
+	left: 100px;
+}
+.name_1{
+	color: red;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.name_2{
+	color: #1c38b8;
+	font-weight: bold;
+	font-size: 2em;
+}
+.name_3{
+	position: relative;
+	font-weight: bold;
+	font-size: 2em;
+	right: 0;
+	float: right;
+
+}
+.taskbar{
+	position: relative;
+}
+.list{
+	position: relative;
+	left: 400px;
+	top: 0;
+}
