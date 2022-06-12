@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: white;
+	font-family: arial,sans-serif;
+}
+.container{
+	display: grid;
+	/*align-items: center;
+	justify-content: ;*/
+	place-items: center;
+}
+.search-box{
+	top: 50px;
+	position: relative;
+	background: white;
+	width: 500px;
+	border: 1.5px solid #d1cdcd;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+}
+.search-box:hover{
+	background: white;
+	border: ivory;
+	box-shadow:  3px 3px 8px #c1c1c1,
+             -3px -3px 8px #ffffff;
+}
+.search-box .image1{
+	width: 18px;
+}
+.search-box .image2{
+	width: 30px;
+	position: relative;
+	left: 430px;
+	cursor: pointer;
+}
+.search-box input{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+	outline: none;
+	border: 0;
+}
+.google-icon{
+	position: relative;
+	top: 40px;
+}
+.buttons{
+	position: relative;
+	top: 80px;
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+button{
+	color: #474746;
+	border: none;
+	background: #f7f7f7;
+	padding: 2px 4px;
+	cursor: pointer;
+}
+.offered{
+	position: relative;
+	top: 110px;
+	color: #474746;
+	font-size: 13px;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
