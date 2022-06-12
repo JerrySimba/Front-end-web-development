@@ -1,4 +1,6 @@
 # Hamburger menu
-This JS file has a responsive hamburger menu with a 100vh to the right. 
-It also has a clickable button that prompts an alert message. 
-It also has the JS page back feature that works even without linking a JS file.
+This repository is all about Front end with HTML, JS and CSS.
+It summarises all the properties available when I was doing my study and I can say its very much all you need to know as others comewith time. I found them handy and useful. It contains: 
+        1. Responsive hamburger menu
+        2. Login landing page
+        3.
