@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Arrays</h1>
+<h2>The forEach() Method</h2>
+
+<p>forEach() calls a function for each element in an array:</p>
+
+<p id="items"></p>
+
+<script>
+
+var list = "";
+const juices = ["Apple", "Orange", "Mango", "Pulp"];
+juices.forEach(myFunction);
+
+document.getElementById("items").innerHTML = list;
+function myFunction(item, index){
+  list += index + ": " + item+ "<br>";
+}
+
+
+</script>
+
+</body>
+</html>
