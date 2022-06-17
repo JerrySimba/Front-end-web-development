@@ -7,21 +7,19 @@
 
 <p>forEach() calls a function for each element in an array:</p>
 
-<p id="items"></p>
+<p>Stages of coding are: <br></p>
+
+<p id="list"></p>
 
 <script>
 
-var list = "";
-const juices = ["Apple", "Orange", "Mango", "Pulp"];
-juices.forEach(myFunction);
+let text = "";
+var stages = ["Problem Definition", "Program Design"," Coding", "Debugging", "Testing", "Documentation", "Maintenance"];
 
-document.getElementById("items").innerHTML = list;
+stages.forEach(myFunction);
+
+document.getElementById("list").innerHTML = text;
 function myFunction(item, index){
-  list += index + ": " + item+ "<br>";
+  return text+= index + ": "+ item + "<br>";
 }
 
-
-</script>
-
-</body>
-</html>
