@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="E:\FOLDERS\Projects\css-course-contents\css\teaching.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+  <div class="container"></div>
+   <div class="header">
+	<h1>freeCodeCamp Survey Form</h1>
+	<p><em>Thank you for taking the time to help us improve the platform</em></p>
+   </div>
+  
+	<form class="survey-form">
+		Name
+		<input id="name-label" type="text" placeholder="Enter your name" name="Name">
+		Email
+		<input  id="email-label" type="text" placeholder="Enter your Email" name="Email">
+		Age(optional)
+		<input id="number-label" type="text" placeholder="Age" name="Age">
+		Which option best describes your current role?
+		<select class="select">
+	 	  <option value="0" selected disabled>Select current role</option>
+	 	  <option value="1">Student</option>
+	 	  <option value="2">Full time job</option>
+	 	  <option value="3">Full time learner</option>
+	 	  <option value="4">Prefer Not to Say</option>
+	 	  <option value="5">Other</option>
+        </select>
+		Would you recommend freeCodeCamp to a friend?
+	   <div class="button-box">
+		<input type="radio" name="gender"> <span>Definitely</span> <br>
+		<input type="radio" name="gender"> <span>Maybe</span> <br>
+		<input type="radio" name="gender"> <span>Not sure</span>
+	   </div>
+		What is your favorite feature of freeCodeCamp?
+		<select class="select">
+	 	  <option value="0" selected disabled>Select an option</option>
+	 	  <option value="1">Challenges</option>
+	 	  <option value="2">Projects</option>
+	 	  <option value="3">Opportunities</option>
+	 	  <option value="4">Open Source</option>
+        </select>
+        What would you like to see improved?  (Check all that apply)
+       <div class="buttons">
+       	<input type="checkbox"><span>Front-end Projects</span> <br>
+        <input type="checkbox"><span>Back-end Projects</span> <br>
+        <input type="checkbox"><span>Data Visualization</span> <br>
+        <input type="checkbox"><span>Challenges</span> <br>
+        <input type="checkbox"><span>Open Source Community</span> <br>
+        <input type="checkbox"><span>Gitter help rooms</span> <br>
+        <input type="checkbox"><span>City Meetups</span> <br>
+        <input type="checkbox"><span>Videos</span> <br>
+        <input type="checkbox"><span>Wiki</span> <br>
+        <input type="checkbox"><span>Forum</span> <br>
+        <input type="checkbox"><span>Additional courses</span> <br>
+      </div> 
+    
+        
+       <div class="comments">
+       	Any comments or suggestions?
+        <textarea name="Overview" rows="10" cols="78" placeholder="Enter your comments here..."></textarea>
+        <button class="submit-button">Submit</button>
+       </div>
+    </form> 
+
+	</div>
+
+</body>
+</html>
